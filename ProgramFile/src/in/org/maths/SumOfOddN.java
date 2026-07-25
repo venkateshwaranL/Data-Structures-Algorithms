@@ -7,12 +7,15 @@ public class SumOfOddN {
         Scanner obj = new Scanner(System.in);
         System.out.println("Enter the Number:");
         int num = obj.nextInt();
-        int sum=0;
-        for(int i=1;i<=num;i++){
-            if(i%2==1){
-                sum=sum+i;
-            }
-        }
-        System.out.println(sum);
+        int x = (num+1)/2;
+        int res = (int) Math.pow(x,2);
+        System.out.println(res);// ---> O(1)
+//        int sum=0;
+//        for(int i=1;i<=num;i++){
+//            if(i%2==1){
+//                sum=sum+i;
+//            }
+//        }
+//        System.out.println(sum);//---> O(n)
     }
 }
