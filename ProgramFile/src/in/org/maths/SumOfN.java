@@ -7,9 +7,9 @@ public class SumOfN {
         Scanner obj = new Scanner(System.in);
         System.out.println("Enter the Number:");
         int num = obj.nextInt();
-        int sum=0;
         int res = (num*(num+1))/2;//Formula ---> O(1)
         System.out.println(res);
+        int sum=0;
 //        for(int i=1;i<=num;i++){
 //            sum=sum+i;
 //        }
