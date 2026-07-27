@@ -17,7 +17,7 @@ public class Factor {
             if(num%i==0&& i!=(num/i)){
                 System.out.print(num/i+" ");
             }
-        }// TC---> O(√n) , SC---> O(1)
+            }// TC---> O(√n) , SC---> O(1)
         obj.close();
 //        for(int i=1;i<=num;i++){
 //            if(num%i==0){
