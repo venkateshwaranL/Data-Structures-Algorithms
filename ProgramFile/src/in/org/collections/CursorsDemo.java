@@ -1,9 +1,6 @@
 package in.org.collections;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.ListIterator;
+import java.util.*;
 
 public class CursorsDemo {
     public static void main(String[] args) {
@@ -32,5 +29,6 @@ public class CursorsDemo {
         System.out.println("After ListIterator"+ar);
         /* Bidirectional cursor , can move forward and backwards
         *  metohs are  - hasNext() , next() , hasPrevious() ,previous() ,add() , remove() set() */
+//        Spliterator spliterator = ar.spliterator();---> Search it and try it..
     }
 }
