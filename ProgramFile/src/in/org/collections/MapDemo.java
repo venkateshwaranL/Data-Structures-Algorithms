@@ -6,7 +6,7 @@ public class MapDemo {
     public static void main(String[] args) {
         Map map = new HashMap();
         map.put(101,"Venkatesh");
-        map.put(102,"Saanya");
+        map.put(102,"Saranya");
         map.put(103,"Rangaraj");
         map.put(105,"Bala");
         map.put(104,"Ram");
@@ -26,5 +26,19 @@ public class MapDemo {
         System.out.println(setview);
         Collection valuesview = tm.values();
         System.out.println(valuesview);
+        Set setKey = tm.entrySet();
+        System.out.println(setKey);
+        Iterator iterator = setKey.iterator();
+        while (iterator.hasNext()){
+            Map.Entry me = (Map.Entry) iterator.next();
+            if (me.getKey().equals(109)){
+                me.setValue("SaiVenkatesh");
+            }
+            System.out.println(me);
+        }
+        boolean linkedTreeKey = mp.containsKey(101);
+        System.out.println(linkedTreeKey);
+        boolean hashMapValue = map.containsValue("Saranya");
+        System.out.println(hashMapValue);
     }
 }
