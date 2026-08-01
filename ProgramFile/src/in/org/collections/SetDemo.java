@@ -12,12 +12,16 @@ public class SetDemo {
         TreeSet ts = new TreeSet();
         hs.add("Venkateshwaran");
         hs.add(55);
+        hs.add(55);
         hs.add("Bhuveneswari");
         hs.add(null);
         hs.add(null);
         ls.add("viky");
-        ls.add("10");
+        ls.add("10.1");
         ls.add("Bala");
+        ls.add(10);
+        ls.add("Balls");
+        ls.add(12.5);
         ls.add("Raj");
         ts.add("Saranya");
         ts.add("Ram");
