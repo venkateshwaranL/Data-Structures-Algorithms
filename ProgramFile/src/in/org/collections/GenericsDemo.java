@@ -5,7 +5,7 @@ import java.util.ListIterator;
 
 public class GenericsDemo {
     public static void main(String[] args) {
-        ArrayList<Integer> al = new ArrayList<Integer>();
+        ArrayList<Integer> al = new ArrayList<>();
         al.add(50);
         al.add(10);
         al.add(25);
